@@ -32,30 +32,40 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Stands for Document Object Model. The DOM is the API to the page. It allows for manipulation of content, structure, and styles. 
+
 2. What is an event?
+
+Events are basically some "thing" that happens to HTML elements. 
 
 3. What is an event listener?
 
+Event listeners are methods that can attach handlers to an HTML element. Sets up a type of event to watch for on a specific HTML element, and then typically does something in result to the event. 
+
 4. Why would we convert a NodeList into an Array?
+
+This allows us to acces all of the Array methods. NodeList only has the forEach method available pre conversion
 
 5. What is a component?
 
+A component is a set of code/logic that creates custom elements, with their functionality abstracted away from the rest of the code base. 
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
+* [x] Look through the HTML code paying particular attention to the Tabs component and the Cards components. You will notice they share a data attribute. We will be using this data attribute to determine which cards should show when each tab is selected.
 
-* [ ] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
+* [x] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
 
-* [ ] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
+* [x] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
 
 ## Stretch Problems
 
