@@ -253,10 +253,6 @@ body {
 }
 .carousel {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
   height: 500px;
   position: relative;
   overflow: hidden;
@@ -273,6 +269,7 @@ body {
   justify-content: center;
   align-items: none;
   flex-direction: row;
+  z-index: 10;
   color: #fff;
   background-color: #333;
   font-size: 40px;
@@ -300,5 +297,5 @@ body {
 }
 .carousel img {
   width: 100%;
-  display: none;
+  position: absolute;
 }
