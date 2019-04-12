@@ -51,6 +51,7 @@ body {
   justify-content: center;
   align-items: none;
   flex-direction: row;
+  z-index: 20;
   position: fixed;
   height: 44px;
   background-color: #333;
@@ -253,14 +254,10 @@ body {
 }
 .carousel {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
   height: 500px;
   position: relative;
   overflow: hidden;
-  margin-top: 16px;
+  margin: 16px 0;
 }
 @media (min-width: 1200px) {
   .carousel {
@@ -273,6 +270,7 @@ body {
   justify-content: center;
   align-items: none;
   flex-direction: row;
+  z-index: 10;
   color: #fff;
   background-color: #333;
   font-size: 40px;
@@ -300,5 +298,5 @@ body {
 }
 .carousel img {
   width: 100%;
-  display: none;
+  position: absolute;
 }
