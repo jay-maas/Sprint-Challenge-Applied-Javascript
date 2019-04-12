@@ -23,24 +23,25 @@ class Carousel {
             this.counter = this.slidesLength -1
           }
           this.slidesIndex = this.slides[this.counter];
-          TweenMax.to(this.slidesIndex, 3, {opacity:2, delay:0});
+          this.reset2 ()
+          TweenMax.to(this.slidesIndex, 2, {opacity:1, delay:.25});
           this.reset2 ()
           this.slidesIndex.style.zIndex++
-         
     }
     changeNext() {
         
         this.reset ()
+        // this.reset2 ()
         if(this.counter < this.slidesLength - 1) {
             this.counter = this.counter + 1;
           } else {
             this.counter = 0;
-          } this.slidesIndex = this.slides[this.counter];
-          
-          TweenMax.to(this.slidesIndex, 3, {opacity:2, delay:0});
+          } 
+          this.slidesIndex = this.slides[this.counter];
+          this.reset2 ()
+          TweenMax.to(this.slidesIndex, 2, {opacity:1, delay:.25});
           this.reset2 ()
           this.slidesIndex.style.zIndex++
-         
 
     }
     reset () {
